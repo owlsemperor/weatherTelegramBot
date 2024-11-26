@@ -16,7 +16,7 @@ const router = express.Router();
 
 // GET route for the homepage
 router.get("/", (req, res) => {
-    res.send("Hi from Rajesh!");
+    res.send("Hi !");
 });
 
 // GET route for the Users Data
